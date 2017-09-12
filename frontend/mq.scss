@@ -1,0 +1,23 @@
+
+
+@media (min-width: 30em){
+  @import "./partials/min-width-30em";
+}
+
+@media (min-width: 48em){
+  @import "./partials/min-width-48em";
+}
+
+
+
+@media (min-width: 62em){
+	@import "./partials/min-width-62em";
+}
+
+@media (max-width: 23.25em){
+  @import "./partials/max-width-20em";
+}
+
+// @media (min-width: 60em){
+// 	@include "./partials/min-with-60em";
+// }

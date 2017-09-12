@@ -1,0 +1,257 @@
+p {
+  line-height: 1.5;
+}
+
+/* start :: jumbotron */
+
+.jumbotron {
+  // h1{
+  //   font-size: 3.75em;
+  // }
+
+  h3 {
+    font-size: 1.125em;
+    width: 70%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* end :: jumbotron */
+
+/* start :: features */
+
+.features {
+  .heading {
+    h2 {
+      font-size: 2.8125em;
+    }
+  }
+
+  .feature-body {
+    h3 {
+      font-size: 1.5em;
+    }
+    p {
+      text-align: left;
+    }
+
+    .feature_content {
+      div {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+}
+
+/* end :: features */
+
+/* start :: more-consistent */
+
+.more-consistent {
+  .heading {
+    h2 {
+      font-size: 2.8125em;
+      margin-bottom: 40px;
+      width: 850px;
+
+      &:after {
+        width: 30%;
+      }
+    }
+
+    h4 {
+      font-size: 1.375em;
+    }
+  }
+
+  .more-consistent-body {
+    ul {
+      li {
+        h5 {
+          font-size: 1.25em;
+          padding-left: 30px;
+
+          &:before {
+            width: 34px;
+            height: 34px;
+            background-size: 34px 34px;
+            left: -15px;
+            top: -5px;
+          }
+          //
+          // &:before{
+          //   content: '';
+          //   width: 34px;
+          //   height: 34px;
+          //   display: inline-block;
+          //   background-image: url('../images/tick.png');
+          //   background-repeat: no-repeat;
+          //   position: absolute;
+          //   left: -15px;
+          //   top: -5px;
+          //
+          // }
+        }
+
+        p {
+          padding-left: 30px;
+          // padding-left: 13%;
+        }
+      }
+    }
+  }
+}
+
+/* end :: more-consistent */
+
+/* start :: advert-with-us */
+
+.advert_with_us {
+  .heading {
+    h2 {
+      font-size: 2.8125em;
+      margin-bottom: 60px;
+      width: 850px;
+
+      &:after {
+        width: 30%;
+      }
+    }
+  }
+
+  .advert_with_us_body {
+    p {
+      padding-left: 30px;
+      padding-right: 30px;
+      // padding-left: 13%;
+    }
+
+    a {
+      margin-top: 50px;
+    }
+  }
+}
+
+/* end :: advert-with-us */
+
+/* start :: contact_us */
+
+.contact_us_wrapper {
+  .contact-us-body {
+    .contact_us,
+    .write_us {
+      text-align: left;
+    }
+  }
+}
+
+/* end :: contact_us */
+
+/* start :: company_info */
+
+.compay_info {
+  .compay_info_links {
+    padding-left: 50px;
+    ul {
+      margin-left: 5%;
+    }
+  }
+}
+
+// .compay_info{
+//   padding: 60px 15px;
+//   background-color: #24afcb;
+//   color: #ffffff;
+//
+//   h5{
+//     color: #ffffff;
+//     font-size: 1.5625em;
+//   }
+//
+//   // .logo_background span:before{
+//   //   content: '';
+//   //   width: 386px;
+//   //   height: 373px;
+//   //   background: url('../images/logo_background.png') no-repeat;
+//   //   display: block;
+//   // }
+//
+//   .compay_info_links{
+//     position: relative;
+//     padding-left: 65px;
+//     h5{
+//       margin-bottom: 50px;
+//     }
+//     ul{
+//       list-style: none;
+//       margin: 0;
+//       padding: 0;
+//       margin-left: 5%;
+//
+//       li{
+//         margin-bottom: 25px;
+//         a{
+//           color: #ffffff;
+//           text-decoration: none;
+//
+//           &:hover{
+//             font-weight: 700;
+//           }
+//         }
+//       }
+//     }
+//   }
+//
+//
+//   .social{
+//     a{
+//       margin-right: 15px;
+//     }
+//     .social_icon{
+//       width: 65px;
+//       height: 65px;
+//       background-color: #a7dfea;
+//       display: inline-block;
+//       border-radius: 50%;
+//
+//     }
+//
+//     i{
+//       width: 65px;
+//       /* height: 65px; */
+//       line-height: 65px;
+//       text-align: center;
+//       font-size: 1.7em;
+//       display: inline-block;
+//     }
+//
+//     .social_icon.facebook:before{
+//
+//
+//     }
+//
+//     a:hover .social_icon{
+//       background-color: #ffffff;
+//     }
+//
+//     .download_app, .follow_us{
+//       margin-bottom: 25px;
+//     }
+//
+//   }
+//
+//
+//
+// }
+
+/* end :: company_info */
+
+/* start :: footer */
+footer {
+  padding: 30px 0;
+  font-size: 0.75em;
+}
+/* end :: footer */

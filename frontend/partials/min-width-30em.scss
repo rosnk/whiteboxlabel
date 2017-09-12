@@ -1,0 +1,137 @@
+p{
+	line-height: 1.4;
+}
+
+
+/* start :: jumbotron */
+
+.jumbotron{
+
+	// padding-top: 167px;
+	// padding-bottom: 60px;
+	padding-top: 157px;
+	padding-bottom: 50px;
+	height: 31.25em;
+
+  h1{
+    font-size: 2.375em;
+  }
+
+	h3{
+		font-size: 1em;
+		margin-bottom: 45px;
+	}
+
+}
+/* end :: jumbotron */
+
+/* start :: features */
+
+  .features{
+
+
+      .heading{
+        h2{
+
+          font-size: 2.1875em;
+
+
+        }
+      }
+
+
+			.feature-body{
+				padding-top: 35px;
+				padding-bottom: 35px;
+
+				h3{
+					font-size: 1.25em;
+					margin-bottom: 16px;
+				}
+
+				p{
+					font-size: 1em;
+				}
+			}
+
+}
+
+/* end :: features */
+
+/* start :: more-consistent */
+
+  .more-consistent{
+
+
+      .heading{
+        h2{
+          font-size: 2.1875em;
+					margin-bottom: 30px;
+        }
+
+        h4{
+            font-size: 1.125em;
+          }
+      }
+
+			.more-consistent-body{
+				ul{
+					li{
+						h5{
+							font-size: 1.125em;
+
+							&:before{
+                left: -15px;
+                top: -2px;
+
+              }
+						}
+
+						p{
+							font-size: 1em;
+						}
+					}
+				}
+			}
+
+  }
+
+/* end :: more-consistent */
+
+
+/* start :: advert-with-us */
+
+  .advert_with_us{
+		.heading{
+			h2{
+				font-size: 2.1875em;
+				margin-bottom: 40px;
+			}
+
+		}
+
+
+      .advert_with_us_body{
+				p{
+					font-size: 1em;
+				}
+
+				a{
+          margin-top: 30px;
+        }
+
+      }
+
+
+
+
+  }
+
+/* end :: advert-with-us */
+
+/* start :: footer */
+footer{
+  padding: 20px 0;
+	font-size: 0.875em;
+}
+/* end :: footer */

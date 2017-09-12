@@ -1,0 +1,70 @@
+/* start :: jumbotron */
+.jumbotron{
+  
+  
+    .btn-default{
+      display: block;
+  
+  
+  
+      // font-size: 0.875em;
+      // font-weight: 400;
+      // text-transform: uppercase;
+      // position: relative;
+      // padding-left: 52px;
+      // padding: 16px 20px 16px 60px;
+  
+  
+  
+      &.android_icon{
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 8px;
+  
+      }
+      //
+      &.iphone_icon{
+        width: 80%;
+          margin-left: auto;
+          margin-right: auto;
+  
+      }
+      //
+      //
+      // &.android_icon:before{
+      //   content: '';
+      //   width: 23px;
+      //   height: 27px;
+      //   background: url('../images/android_icon.png') no-repeat;
+      //   display: inline-block;
+      //   position: absolute;
+      //   top: 50%;
+      //   left: 18%;
+      //   transform: translate(-20%, -50%);
+      // }
+      //
+      // &.iphone_icon:before{
+      //   content: '';
+      //   width: 24px;
+      //   height: 29px;
+      //   background: url('../images/iphone_icon.png') no-repeat;
+      //   display: inline-block;
+      //   position: absolute;
+      //   top: 50%;
+      //   left: 23%;
+      //   transform: translate(-20%, -55%);
+      // }
+      //
+      // &.android_icon:hover:before{
+      //       background: url('../images/android_icon_blue.png') no-repeat;
+      // }
+      //
+      // &.iphone_icon:hover:before{
+      //       background: url('../images/iphone_icon_blue.png') no-repeat;
+      // }
+  
+    }
+  }
+  /* end :: jumbotron */
+  

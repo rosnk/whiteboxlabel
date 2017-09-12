@@ -1,0 +1,364 @@
+.navbar-default {
+  .navbar-header {
+    padding: 0;
+  }
+
+  .navbar-collapse {
+    margin-left: -15px;
+    margin-right: -15px;
+    background: none;
+  }
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.navbar-default ul.navbar-nav {
+  float: right;
+  height: 107px;
+  line-height: 107px;
+}
+
+.navbar-default .navbar-nav > li a {
+  display: inline-block;
+}
+
+.navbar-default .navbar-nav > li {
+  padding-left: 16px;
+
+  &:first-child {
+    padding-left: 0;
+  }
+}
+
+.navbar-default .navbar-nav > li.signin {
+  margin: 0;
+  a {
+    display: inline-block;
+    padding: 11px 20px;
+    text-transform: capitalize;
+  }
+  span {
+    // color: #ffffff;
+    text-align: left;
+    color: #ffffff;
+    margin-right: 25px;
+    font-weight: 400;
+    font-size: 1.125em;
+  }
+}
+
+/* for scroll navigation */
+.navbar-default {
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s;
+  padding: 15px 0;
+  background-color: transparent;
+  border: none;
+  /* Add additional styles here for the UNCOLLAPSED state */
+
+  .navbar-brand {
+    background-image: url('images/whiteboxlabel.png');
+    // width: 160px;
+    // height: 107px;
+    width: 214px;
+    height: 62px;
+    background-position: center center;
+    // margin: 0;
+    // padding: 0;
+    // text-indent: -9999px;
+  }
+}
+
+.navbar-default.affix {
+  // padding: 0;
+  background-color: rgba(0, 0, 0, .9);
+  // background-color: #f8f8f8;
+  border-color: #e7e7e7;
+  border-width: 0 0 1px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, .3);
+  /* Add additional styles here for the COLLAPSED state */
+
+  ul.navbar-nav {
+    // float: right;
+    height: 76px;
+    line-height: 76px;
+  }
+
+  .navbar-header {
+    background-color: transparent;
+    border: none;
+  }
+
+  .navbar-brand {
+    // background-image: url('images/gc_logo2.jpg');
+    background-image: url('images/whiteboxlabel.png');
+    background-repeat: no-repeat;
+    // width: 239px;
+    // height: 76px;
+    width: 214px;
+    height: 62px;
+    background-position: center center;
+  }
+
+  .navbar-nav > li.signin {
+    span {
+      color: #4d545d;
+    }
+  }
+}
+
+/* start :: jumbotron */
+
+.jumbotron {
+  padding-top: 167px;
+  padding-bottom: 60px;
+  height: 43.75em;
+
+  .banner_content {
+    margin-top: 100px;
+  }
+
+  h1 {
+    font-size: 3.75em;
+  }
+
+  h3 {
+    font-size: 1.125em;
+    margin-bottom: 60px;
+  }
+
+  .dropdown {
+    position: relative;
+    top: 28px;
+  }
+}
+
+.navbar-default.affix {
+  .dropdown {
+    position: relative;
+    top: 15px;
+  }
+}
+/* end :: jumbotron */
+
+/* start :: more-consistent */
+
+// .more-consistent{
+//     padding: 60px 0;
+//     background-color: #24afcb;
+//     color: #ffffff;
+//
+//
+//
+//     .heading{
+//       h2{
+//         margin: 0;
+//         padding: 0;
+//         font-size: 2.8125em;
+//         position: relative;
+//         display: inline-block;
+//         color: #ffffff;
+//         font-weight: 600;
+//         width: 807px;
+//         margin: 0 auto;
+//         margin-bottom: 40px;
+//
+//
+//         &:after{
+//           content: '';
+//           width: 40%;
+//           height: 3px;
+//           background-color: #ffffff;
+//           display: block;
+//           margin: 0 auto;
+//           margin-top: 10px;
+//         }
+//
+//       }
+//
+//       h4{
+//         color: #ffffff;
+//         font-size: 1.375;
+//         text-transform: none;
+//         font-weight: 600;
+//         margin: 0;
+//         padding: 0;
+//         width: 662px;
+//         margin: 0 auto;
+//         margin-bottom: 100px;
+//         line-height: 1.4;
+//
+//       }
+//
+//     }
+//
+//
+//     h5{
+//       color: #ffffff;
+//     }
+//
+//
+// }
+
+/* end :: more-consistent */
+
+/* start :: features */
+
+.features {
+  .heading {
+    h2 {
+      font-size: 2.5em;
+    }
+  }
+
+  .feature-body {
+    padding-top: 35px;
+    padding-bottom: 35px;
+
+    h3 {
+      font-size: 1.375em;
+      margin-bottom: 18px;
+    }
+
+    p {
+      font-size: 1.125em;
+    }
+  }
+}
+
+/* end :: features */
+
+/* start :: more-consistent */
+
+.more-consistent {
+  .heading {
+    h2 {
+      font-size: 2.5em;
+      margin-bottom: 35px;
+    }
+
+    h4 {
+      font-size: 1.25em;
+    }
+  }
+
+  .more-consistent-body {
+    ul {
+      li {
+        h5 {
+          font-size: 1.25em;
+
+          &:before {
+            left: -15px;
+            top: -1px;
+          }
+        }
+
+        p {
+          font-size: 1.125em;
+        }
+      }
+    }
+  }
+}
+
+/* end :: more-consistent */
+
+/* start :: advert-with-us */
+
+.advert_with_us {
+  .heading {
+    h2 {
+      font-size: 2.5em;
+      margin-bottom: 45px;
+    }
+  }
+
+  .advert_with_us_body {
+    p {
+      font-size: 1.125em;
+    }
+
+    a {
+      margin-top: 40px;
+    }
+  }
+}
+
+/* end :: advert-with-us */
+
+/* start :: contact_us */
+
+.contact_us_wrapper {
+  .contact-us-body {
+    .contact_us,
+    .write_us {
+      text-align: left;
+    }
+
+    .contact_us {
+      .contact_us_content {
+        width: 75%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+/* end :: contact_us */
+
+/* start :: company_info */
+
+.compay_info {
+  h5 {
+    text-align: left;
+  }
+
+  .logo_background span:before {
+    content: '';
+    width: 100%;
+    height: 373px;
+    max-height: 373px;
+    background: url('images/logo_background.png') no-repeat;
+    display: block;
+    background-size: 100%;
+    background-position: center;
+  }
+
+  .compay_info_links {
+    position: relative;
+    margin-bottom: 0;
+
+    ul {
+      margin-left: 16%;
+      text-align: left;
+    }
+  }
+
+  .social {
+    .follow_us,
+    .download_app {
+      text-align: left;
+    }
+  }
+}
+
+/* end :: company_info */
+
+/* start :: footer */
+footer {
+  padding: 25px 0;
+  font-size: 1em;
+}
+/* end :: footer */
+
+.modal-footer {
+  .btn-default:hover {
+    border: 1px solid #24afcb;
+  }
+}
