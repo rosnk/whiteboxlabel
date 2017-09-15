@@ -195,7 +195,7 @@
     // i.android_icon{
     //   width: 23px;
     //   height: 27px;
-    //   background: url('../images/android_icon.png') no-repeat;
+    //   background: url('..images/android_icon.png') no-repeat;
     //   display: inline-block;
     // }
 
@@ -325,7 +325,7 @@
           padding: 0 15px;
           margin: 0 20px;
           margin-bottom: 10px;
-          background: url('/images/arrow.png') 0 12% no-repeat;
+          background: url('images/arrow.png') 0 12% no-repeat;
           // padding-left: 15px;
         }
       }
@@ -387,11 +387,11 @@
 
       .personalization.feature_icon{
         span{
-            background-image: url('/images/personalization.png');
+            background-image: url('images/personalization.png');
         }
 
         &:hover span{
-          background-image: url('/images/personalization_blue.png');
+          background-image: url('images/personalization_blue.png');
           background-color: #ffffff;
           border: 2px solid #2499b0;
         }
@@ -402,10 +402,10 @@
 
       .user_experience.feature_icon{
         span{
-          background-image: url('/images/user_experience.png');
+          background-image: url('images/user_experience.png');
         }
           &:hover span{
-            background-image: url('/images/user_experience_blue.png');
+            background-image: url('images/user_experience_blue.png');
             background-color: #ffffff;
             border: 2px solid #2499b0;
           }
@@ -416,10 +416,10 @@
 
       .local_partners.feature_icon{
         span{
-          background-image: url('/images/local_partners.png');
+          background-image: url('images/local_partners.png');
         }
           &:hover span{
-            background-image: url('/images/local_partners_blue.png');
+            background-image: url('images/local_partners_blue.png');
             background-color: #ffffff;
             border: 2px solid #2499b0;
           }
@@ -430,10 +430,10 @@
 
       .easy_platform.feature_icon{
         span{
-          background-image: url('/images/easy_platform.png');
+          background-image: url('images/easy_platform.png');
         }
           &:hover span{
-            background-image: url('/images/easy_platform_blue.png');
+            background-image: url('images/easy_platform_blue.png');
             background-color: #ffffff;
             border: 2px solid #2499b0;
           }
@@ -450,7 +450,7 @@
     //     background-color: #28b1cc;
     //     display: block;
     //     margin: 0 auto;
-    //     background-image: url('../images/personalization.png');
+    //     background-image: url('..images/personalization.png');
     //     background-repeat: no-repeat;
     //     background-position: center;
     // }
@@ -462,7 +462,7 @@
     //     background-color: #28b1cc;
     //     display: block;
     //     margin: 0 auto;
-    //     background-image: url('../images/user_experience.png');
+    //     background-image: url('..images/user_experience.png');
     //     background-repeat: no-repeat;
     //     background-position: center;
     // }
@@ -474,7 +474,7 @@
     //     background-color: #28b1cc;
     //     display: block;
     //     margin: 0 auto;
-    //     background-image: url('../images/local_partners.png');
+    //     background-image: url('..images/local_partners.png');
     //     background-repeat: no-repeat;
     //     background-position: center;
     // }
@@ -486,7 +486,7 @@
     //     background-color: #28b1cc;
     //     display: block;
     //     margin: 0 auto;
-    //     background-image: url('../images/easy_platform.png');
+    //     background-image: url('..images/easy_platform.png');
     //     background-repeat: no-repeat;
     //     background-position: center;
     // }
@@ -892,7 +892,7 @@
   //   content: '';
   //   width: 386px;
   //   height: 373px;
-  //   background: url('../images/logo_background.png') no-repeat;
+  //   background: url('..images/logo_background.png') no-repeat;
   //   display: block;
   // }
 

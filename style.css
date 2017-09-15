@@ -257,7 +257,7 @@ a {
         padding: 0 15px;
         margin: 0 20px;
         margin-bottom: 10px;
-        background: url("/images/arrow.png") 0 12% no-repeat; }
+        background: url("images/arrow.png") 0 12% no-repeat; }
     .features .feature-body .featured_item.local_partners ul li {
       background-position: 0 30%; }
   .features .feature-body .feature_content div {
@@ -280,33 +280,33 @@ a {
     background-repeat: no-repeat;
     background-position: center; }
   .features .feature-body .personalization.feature_icon span {
-    background-image: url("/images/personalization.png"); }
+    background-image: url("images/personalization.png"); }
   .features .feature-body .personalization.feature_icon:hover span {
-    background-image: url("/images/personalization_blue.png");
+    background-image: url("images/personalization_blue.png");
     background-color: #ffffff;
     border: 2px solid #2499b0; }
   .features .feature-body .personalization.feature_icon:hover {
     font-weight: 700; }
   .features .feature-body .user_experience.feature_icon span {
-    background-image: url("/images/user_experience.png"); }
+    background-image: url("images/user_experience.png"); }
   .features .feature-body .user_experience.feature_icon:hover span {
-    background-image: url("/images/user_experience_blue.png");
+    background-image: url("images/user_experience_blue.png");
     background-color: #ffffff;
     border: 2px solid #2499b0; }
   .features .feature-body .user_experience.feature_icon:hover {
     font-weight: 700; }
   .features .feature-body .local_partners.feature_icon span {
-    background-image: url("/images/local_partners.png"); }
+    background-image: url("images/local_partners.png"); }
   .features .feature-body .local_partners.feature_icon:hover span {
-    background-image: url("/images/local_partners_blue.png");
+    background-image: url("images/local_partners_blue.png");
     background-color: #ffffff;
     border: 2px solid #2499b0; }
   .features .feature-body .local_partners.feature_icon:hover {
     font-weight: 700; }
   .features .feature-body .easy_platform.feature_icon span {
-    background-image: url("/images/easy_platform.png"); }
+    background-image: url("images/easy_platform.png"); }
   .features .feature-body .easy_platform.feature_icon:hover span {
-    background-image: url("/images/easy_platform_blue.png");
+    background-image: url("images/easy_platform_blue.png");
     background-color: #ffffff;
     border: 2px solid #2499b0; }
   .features .feature-body .easy_platform.feature_icon:hover {
