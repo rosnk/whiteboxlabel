@@ -216,19 +216,43 @@
     }
   }
 
-  .feature-body {
+  .feature-body{
     padding-top: 35px;
-    padding-bottom: 35px;
+    padding-bottom: 15px;
+    
+    .featured_item{
+      
+      img{
+        width: 25%;
+        height: auto;
+      }
+      margin-bottom: 40px;
 
-    h3 {
-      font-size: 1.375em;
-      margin-bottom: 18px;
+      h3{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 1em;
+      }
+
+      p{
+        font-size: .8em;
+        text-align: center;
+      }
+      
     }
 
-    p {
+    h3{
+      font-size: 1.375em;
+      margin-bottom: 18px;
+
+    }
+
+    p{
       font-size: 1.125em;
     }
   }
+
+
 }
 
 /* end :: features */
