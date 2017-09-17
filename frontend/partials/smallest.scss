@@ -13,17 +13,25 @@
 }
 
 /* start :: nav bar */
+
+.navbar-default .navbar-brand {
+  color: #ffffff;
+  font-size: 1.5em;
+}
+
 .navbar-brand {
   // width: 160px;
   // height: 107px;
   width: 214px;
   height: 62px;
-  background-position: center center;
+  line-height: 62px;
+  // background-position: center center;
   margin: 0;
   padding: 0;
-  background-image: url('images/whiteboxlabel.png');
-  background-repeat: no-repeat;
-  text-indent: -9999px;
+  
+  // background-image: url('images/whiteboxlabel.png');
+  // background-repeat: no-repeat;
+  // text-indent: -9999px;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -112,12 +120,12 @@
 .navbar-default.affix {
   .navbar-brand {
     // background-image: url('images/company_logo2.png');
-    background-image: url('images/whiteboxlabel.png');
-    background-repeat: no-repeat;
+    // background-image: url('images/whiteboxlabel.png');
+    // background-repeat: no-repeat;
     // width: 239px;
-    width: 214px;
-    height: 62px;
-    background-position: center center;
+    // width: 214px;
+    // height: 62px;
+    // background-position: center center;
     // height: 76px;
   }
 

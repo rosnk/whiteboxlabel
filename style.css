@@ -52,15 +52,16 @@ a {
   display: none; }
 
 /* start :: nav bar */
+.navbar-default .navbar-brand {
+  color: #ffffff;
+  font-size: 1.5em; }
+
 .navbar-brand {
   width: 214px;
   height: 62px;
-  background-position: center center;
+  line-height: 62px;
   margin: 0;
-  padding: 0;
-  background-image: url("images/whiteboxlabel.png");
-  background-repeat: no-repeat;
-  text-indent: -9999px; }
+  padding: 0; }
 
 .navbar-default .navbar-nav > li > a {
   font-size: 1.125em;
@@ -122,12 +123,6 @@ a {
     background: rgba(0, 0, 0, 0.8);
     border-radius: 0 0 2px 2px; }
 
-.navbar-default.affix .navbar-brand {
-  background-image: url("images/whiteboxlabel.png");
-  background-repeat: no-repeat;
-  width: 214px;
-  height: 62px;
-  background-position: center center; }
 .navbar-default.affix .navbar-toggle {
   height: 62px;
   line-height: 62px; }
@@ -725,11 +720,6 @@ footer {
     background-color: transparent;
     border: none;
     /* Add additional styles here for the UNCOLLAPSED state */ }
-    .navbar-default .navbar-brand {
-      background-image: url("images/whiteboxlabel.png");
-      width: 214px;
-      height: 62px;
-      background-position: center center; }
 
   .navbar-default.affix {
     background-color: rgba(0, 0, 0, 0.9);
@@ -743,12 +733,6 @@ footer {
     .navbar-default.affix .navbar-header {
       background-color: transparent;
       border: none; }
-    .navbar-default.affix .navbar-brand {
-      background-image: url("images/whiteboxlabel.png");
-      background-repeat: no-repeat;
-      width: 214px;
-      height: 62px;
-      background-position: center center; }
     .navbar-default.affix .navbar-nav > li.signin span {
       color: #4d545d; }
 
