@@ -14,7 +14,7 @@ h3,
 h4,
 h5 {
   text-transform: uppercase;
-  color: #e74c3c;
+  color: #2980b9;
   font-weight: 600; }
 
 a {
@@ -22,7 +22,7 @@ a {
   text-decoration: none; }
 
 .btn-default {
-  background-color: #e74c3c;
+  background-color: #2980b9;
   color: #ffffff;
   border: none;
   border-radius: 50px;
@@ -31,12 +31,12 @@ a {
 
 .btn-default:hover {
   background-color: #fff;
-  color: #e74c3c; }
+  color: #2980b9; }
 
 .btn-default:active,
 .btn-default:focus {
   box-shadow: none;
-  background-color: #e74c3c;
+  background-color: #2980b9;
   color: #ffffff;
   outline: none; }
 
@@ -80,13 +80,13 @@ a {
 .navbar-default .navbar-nav > li.signin {
   margin: 10px; }
   .navbar-default .navbar-nav > li.signin a {
-    color: #e74c3c;
+    color: #2980b9;
     background-color: transparent;
-    border-color: #e74c3c;
-    border: 2px solid #e74c3c;
+    border-color: #2980b9;
+    border: 2px solid #2980b9;
     border-radius: 2px; }
     .navbar-default .navbar-nav > li.signin a:hover {
-      background-color: #e74c3c;
+      background-color: #2980b9;
       color: #ffffff; }
   .navbar-default .navbar-nav > li.signin span {
     text-align: center;
@@ -137,7 +137,7 @@ a {
 /* end :: nav bar */
 /* start :: jumbotron */
 .jumbotron {
-  background: #000000 url("images/jumbotron_background.png") no-repeat;
+  background: #2f2f2f url("images/jumbotron_background.png") no-repeat;
   padding-top: 137px;
   padding-bottom: 30px;
   height: 35em;
@@ -198,15 +198,15 @@ a {
     .jumbotron .btn-default.iphone_icon:hover:before {
       background: url("images/iphone_icon_blue.png") no-repeat; }
   .jumbotron .dropdown > .btn-default {
-    color: #e74c3c;
+    color: #2980b9;
     background-color: transparent;
-    border-color: #e74c3c;
-    border: 2px solid #e74c3c;
+    border-color: #2980b9;
+    border: 2px solid #2980b9;
     border-radius: 2px;
     padding: 11px 20px;
     text-transform: capitalize; }
     .jumbotron .dropdown > .btn-default:hover {
-      background-color: #e74c3c;
+      background-color: #2980b9;
       color: #ffffff; }
   .jumbotron .dropdown .dropdown-menu {
     line-height: 4em; }
@@ -232,7 +232,7 @@ a {
       content: '';
       width: 80%;
       height: 3px;
-      background-color: #e74c3c;
+      background-color: #2980b9;
       display: block;
       margin: 0 auto;
       margin-top: 10px; }
@@ -249,7 +249,7 @@ a {
       margin: 0;
       padding: 0;
       margin-top: 30px;
-      font-size: 0.8em; }
+      font-size: 0.85em; }
       .features .feature-body .featured_item ul li {
         text-align: left;
         padding: 0 15px;
@@ -432,7 +432,7 @@ a {
       content: '';
       width: 50%;
       height: 3px;
-      background-color: #e74c3c;
+      background-color: #2980b9;
       display: block;
       margin: 0 auto;
       margin-top: 10px; }
@@ -465,16 +465,16 @@ a {
     background-repeat: no-repeat; }
   .contact_us_wrapper .contact-us-body .write_us .btn-default {
     border-radius: 2px;
-    border: 1px solid #e74c3c; }
+    border: 1px solid #2980b9; }
     .contact_us_wrapper .contact-us-body .write_us .btn-default:hover {
-      border: 1px solid #e74c3c;
+      border: 1px solid #2980b9;
       cursor: pointer; }
 
 /* end :: contact_us */
 /* start :: company_info */
 .compay_info {
   padding: 60px 15px;
-  background-color: #e74c3c;
+  background-color: #2980b9;
   color: #ffffff; }
   .compay_info h5 {
     color: #ffffff;
@@ -521,7 +521,7 @@ a {
 /* end :: company_info */
 /* start :: footer */
 footer {
-  background: #050912;
+  background: #4d545d;
   color: #ffffff;
   padding: 18px 0;
   font-size: 0.75em; }
@@ -606,7 +606,7 @@ footer {
   display: inline-block;
   margin-right: 25px; }
   #generic_hotel_form .apply_radio_button label.radio-inline:hover {
-    color: #e74c3c; }
+    color: #2980b9; }
 
 /* End :: generic hotel form css */
 .modal .btn-default[disabled] {
@@ -725,7 +725,7 @@ footer {
     /* Add additional styles here for the UNCOLLAPSED state */ }
 
   .navbar-default.affix {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: #4d545d;
     border-color: #e7e7e7;
     border-width: 0 0 1px;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3);
@@ -778,7 +778,7 @@ footer {
         margin-bottom: 15px;
         font-size: 1em; }
       .features .feature-body .featured_item p {
-        font-size: .8em;
+        font-size: .9em;
         text-align: center; }
     .features .feature-body h3 {
       font-size: 1.375em;

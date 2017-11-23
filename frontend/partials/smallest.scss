@@ -55,14 +55,14 @@
 .navbar-default .navbar-nav > li.signin {
   margin: 10px;
   a {
-    color: #e74c3c;
+    color: #2980b9;
     background-color: transparent;
-    border-color: #e74c3c;
-    border: 2px solid #e74c3c;
+    border-color: #2980b9;
+    border: 2px solid #2980b9;
     border-radius: 2px;
 
     &:hover {
-      background-color: #e74c3c;
+      background-color: #2980b9;
       color: #ffffff;
     }
   }
@@ -156,7 +156,7 @@
 
 /* start :: jumbotron */
 .jumbotron {
-  background: #000000 url('images/jumbotron_background.png') no-repeat;
+  background: #2f2f2f url('images/jumbotron_background.png') no-repeat;
   // padding-top: 167px;
   // padding-bottom: 60px;
   padding-top: 137px;
@@ -252,16 +252,16 @@
   }
 
   .dropdown > .btn-default {
-    color: #e74c3c;
+    color: #2980b9;
     background-color: transparent;
-    border-color: #e74c3c;
-    border: 2px solid #e74c3c;
+    border-color: #2980b9;
+    border: 2px solid #2980b9;
     border-radius: 2px;
     padding: 11px 20px;
     text-transform: capitalize;
 
     &:hover {
-      background-color: #e74c3c;
+      background-color: #2980b9;
       color: #ffffff;
     }
   }
@@ -301,7 +301,7 @@
         content: '';
         width: 80%;
         height: 3px;
-        background-color: #e74c3c;
+        background-color: #2980b9;
         display: block;
         margin: 0 auto;
         margin-top: 10px;
@@ -329,7 +329,7 @@
         margin: 0;
         padding: 0;
         margin-top: 30px;
-        font-size: 0.8em;
+        font-size: 0.85em;
 
         li{
           text-align: left;
@@ -609,7 +609,7 @@
 
 .more-consistent {
   padding: 60px 15px;
-  // background-color: #e74c3c;
+  // background-color: #2980b9;
   background: $primary_color_theme;
   color: #ffffff;
 
@@ -815,7 +815,7 @@
         content: '';
         width: 50%;
         height: 3px;
-        background-color: #e74c3c;
+        background-color: #2980b9;
         display: block;
         margin: 0 auto;
         margin-top: 10px;
@@ -869,10 +869,10 @@
     .write_us {
       .btn-default {
         border-radius: 2px;
-        border: 1px solid #e74c3c;
+        border: 1px solid #2980b9;
 
         &:hover {
-          border: 1px solid #e74c3c;
+          border: 1px solid #2980b9;
           cursor: pointer;
         }
       }
@@ -886,7 +886,7 @@
 
 .compay_info {
   padding: 60px 15px;
-  background-color: #e74c3c;
+  background-color: #2980b9;
   color: #ffffff;
 
   //  .container > .row:first-child > div{
@@ -977,7 +977,7 @@
 /* start :: footer */
 footer {
   // background-color: #0f5867;
-  background: #050912;
+  background: #4d545d;
   color: #ffffff;
   padding: 18px 0;
   font-size: 0.75em;
@@ -1142,7 +1142,7 @@ footer {
     margin-right: 25px;
 
     label.radio-inline:hover {
-      color: #e74c3c;
+      color: #2980b9;
     }
   }
 }
