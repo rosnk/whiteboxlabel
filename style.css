@@ -57,11 +57,14 @@ a {
   font-size: 1.5em; }
 
 .navbar-brand {
-  width: 214px;
-  height: 62px;
-  line-height: 62px;
+  width: 184px;
+  height: 70px;
+  line-height: 70px;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  background-image: url("images/white_label_logo.png");
+  background-repeat: no-repeat;
+  text-indent: -9999px; }
 
 .navbar-default .navbar-nav > li > a {
   font-size: 1.125em;
